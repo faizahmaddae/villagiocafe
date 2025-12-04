@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appetizers & Dips | Menu | Villagio Cafe</title>
+  <meta name="description" content="Explore our delicious appetizers and dips including Hummus, Baba Ganoush, Dolmeh, and more authentic Persian starters.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+  <!-- Announcement Bar -->
+  <div class="announcement-bar" id="announcementBar">
+    <div class="container">
+      <p>Hooray! Villagio Cafe is OPEN! ⭐️ After completing kitchen and structural updates, our team is ready and excited to serve you! 🙏🏻🧡</p>
+      <button class="announcement-close" id="closeAnnouncement" aria-label="Close announcement">×</button>
+    </div>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="../index.html" class="logo">
+        <span class="logo-text">Villagio Cafe</span>
+      </a>
+      
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="../index.html" class="nav-link">Home</a></li>
+          <li><a href="index.html" class="nav-link active">Menu</a></li>
+          <li><a href="../gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="../catering.html" class="nav-link">Catering</a></li>
+          <li><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-actions">
+        <a href="tel:410-372-2200" class="header-phone">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span>410-372-2200</span>
+        </a>
+        <a href="tel:410-372-2200" class="btn btn-primary">Order Now</a>
+      </div>
+      
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-nav-list">
+      <li><a href="../index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="index.html" class="mobile-nav-link active">Menu</a></li>
+      <li><a href="../gallery.html" class="mobile-nav-link">Gallery</a></li>
+      <li><a href="../catering.html" class="mobile-nav-link">Catering</a></li>
+      <li><a href="../contact.html" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-menu-footer">
+      <a href="tel:410-372-2200" class="btn btn-primary btn-block">Call 410-372-2200</a>
+      <p class="mobile-hours">Mon-Sat: 11am-9pm | Sun: 12pm-8pm</p>
+    </div>
+  </div>
+
+  <main>
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb-list">
+          <li><a href="../index.html">Home</a></li>
+          <li>/</li>
+          <li><a href="index.html">Menu</a></li>
+          <li>/</li>
+          <li class="current">Appetizers & Dips</li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- Category Header -->
+    <div class="category-header">
+      <div class="container">
+        <h1>Appetizers & Dips</h1>
+      </div>
+    </div>
+
+    <!-- Sticky Category Nav -->
+    <nav class="category-nav">
+      <div class="category-nav-list">
+        <a href="appetizers.html" class="category-nav-link active">Appetizers</a>
+        <a href="soup-salad.html" class="category-nav-link">Soup & Salad</a>
+        <a href="entree.html" class="category-nav-link">Entree</a>
+        <a href="combinations.html" class="category-nav-link">Combinations</a>
+        <a href="family-tour.html" class="category-nav-link">Family Tour</a>
+        <a href="stews.html" class="category-nav-link">Stews</a>
+        <a href="sides.html" class="category-nav-link">Sides</a>
+        <a href="kids.html" class="category-nav-link">Kids</a>
+        <a href="desserts.html" class="category-nav-link">Desserts</a>
+        <a href="beverages.html" class="category-nav-link">Beverages</a>
+        <a href="lunch-special.html" class="category-nav-link">Lunch Special</a>
+      </div>
+    </nav>
+
+    <!-- Menu Items -->
+    <section class="section-menu">
+      <div class="container">
+        <div class="menu-grid">
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1577805947697-89e18249d767?w=600&h=450&fit=crop" alt="Hummus" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Hummus</h3>
+                <span class="menu-item-price">$5.97</span>
+              </div>
+              <p class="menu-item-description">Mixture of garbanzo beans, tahini sauce, olive oil, garlic & fresh lemon juice</p>
+            </div>
+          </article>
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&h=450&fit=crop" alt="Baba Ganoush" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Baba Ganoush</h3>
+                <span class="menu-item-price">$5.97</span>
+              </div>
+              <p class="menu-item-description">Mixture of roasted eggplant, garbanzo beans, tahini sauce, olive oil & garlic</p>
+            </div>
+          </article>
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600&h=450&fit=crop" alt="Dolmeh" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Dolmeh</h3>
+                <span class="menu-item-price">$5.97</span>
+              </div>
+              <p class="menu-item-description">Stuffed grape leaves served with our house dressing (6pcs.)</p>
+            </div>
+          </article>
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&h=450&fit=crop" alt="Mast-O-Khiar" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Mast-O-Khiar</h3>
+                <span class="menu-item-price">$5.97</span>
+              </div>
+              <p class="menu-item-description">Homemade yogurt dip mixed with diced cucumber & mint</p>
+            </div>
+          </article>
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600&h=450&fit=crop" alt="Mast-O-Mosir" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Mast-O-Mosir</h3>
+                <span class="menu-item-price">$5.97</span>
+              </div>
+              <p class="menu-item-description">Homemade yogurt dip mixed with diced shallot</p>
+            </div>
+          </article>
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=600&h=450&fit=crop" alt="Villagio Eggplant" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Villagio Eggplant (Kashk O Bademjan)</h3>
+                <span class="menu-item-price">$7.97</span>
+              </div>
+              <p class="menu-item-description">Roasted eggplant with whey, sautéed garlic, onions & mint</p>
+            </div>
+          </article>
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=600&h=450&fit=crop" alt="Chicken Eggplant" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Chicken Eggplant</h3>
+                <span class="menu-item-price">$7.97</span>
+              </div>
+              <p class="menu-item-description">Sautéed chicken breast & eggplant simmered in homemade tomato sauce</p>
+            </div>
+          </article>
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=600&h=450&fit=crop" alt="Viggie Olovieh" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Viggie Olovieh</h3>
+                <span class="menu-item-price">$5.97</span>
+              </div>
+              <p class="menu-item-description">Potato salad mixed with pickles, carrots, sweet peas, spring onions & fresh parsley</p>
+            </div>
+          </article>
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?w=600&h=450&fit=crop" alt="Tah Dig Gheymeh" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Tah Dig Gheymeh</h3>
+                <span class="menu-item-price">$11.97</span>
+              </div>
+              <p class="menu-item-description">Crispy & crunchy crust of rice topped with your choice of our delicious Gheymeh or Ghormeh Sabzi</p>
+            </div>
+          </article>
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?w=600&h=450&fit=crop" alt="Tah Dig Gheymeh Bademjan" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Tah Dig Gheymeh Bademjan</h3>
+                <span class="menu-item-price">$12.97</span>
+              </div>
+              <p class="menu-item-description">Crispy & crunchy crust of rice topped with your choice of our delicious Gheymeh Bademjan</p>
+            </div>
+          </article>
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?w=600&h=450&fit=crop" alt="Tah Dig Fessenjan" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Tah Dig Fessenjan</h3>
+                <span class="menu-item-price">$13.97</span>
+              </div>
+              <p class="menu-item-description">Crispy & crunchy crust of rice topped with your choice of our delicious Fessenjan</p>
+            </div>
+          </article>
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?w=600&h=450&fit=crop" alt="Tah Dig Gheymeh & Gormeh Sabzi" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Tah Dig Gheymeh & Gormeh Sabzi</h3>
+                <span class="menu-item-price">$21.97</span>
+              </div>
+              <p class="menu-item-description">Crispy & crunchy crust of rice topped with your choice of our delicious Gheymeh & Gormeh Sabzi</p>
+            </div>
+          </article>
+          
+          <article class="menu-item-card">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1541014741259-de529411b96a?w=600&h=450&fit=crop" alt="Appetizer Platter" loading="lazy">
+            </div>
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Appetizer Platter</h3>
+                <span class="menu-item-price">$19.97</span>
+              </div>
+              <p class="menu-item-description">Hummus, Baba Ganoush, Dolmeh (3Pc), Mast-O-Khyar dip, Veggie Olovieh & Shirazi salad</p>
+            </div>
+          </article>
+          
+        </div>
+        
+        <div class="section-cta">
+          <a href="index.html" class="btn btn-ghost">← Back to Full Menu</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-text">Villagio Cafe</span>
+          <p class="footer-tagline">Authentic Persian Fine Dining</p>
+        </div>
+        
+        <div class="footer-nav">
+          <h4 class="footer-title">Navigation</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="index.html">Menu</a></li>
+            <li><a href="../gallery.html">Gallery</a></li>
+            <li><a href="../catering.html">Catering</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-hours">
+          <h4 class="footer-title">Hours</h4>
+          <p>Monday - Saturday<br>11am - 9pm</p>
+          <p>Sunday<br>12pm - 8pm</p>
+        </div>
+        
+        <div class="footer-contact">
+          <h4 class="footer-title">Contact</h4>
+          <p>6805 York RD<br>Baltimore, MD 21212</p>
+          <p><a href="tel:410-372-2200">410-372-2200</a></p>
+          <p><a href="mailto:VillagioCafe@gmail.com">VillagioCafe@gmail.com</a></p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/VillagioCafeTowson/" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; Villagio Cafe. All rights reserved.</p>
+        <p>Powered by <a href="http://www.thenorthsoft.com/" target="_blank" rel="noopener">NorthSoft</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

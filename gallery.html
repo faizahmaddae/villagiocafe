@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Villagio Cafe</title>
+  <meta name="description" content="Take a visual tour of Villagio Cafe - our beautiful restaurant, delicious dishes and memorable moments.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="announcement-bar" id="announcementBar">
+    <div class="container">
+      <p>Hooray! Villagio Cafe is OPEN! ⭐️ Our team is ready and excited to serve you! 🙏🏻🧡</p>
+      <button class="announcement-close" id="closeAnnouncement" aria-label="Close announcement">×</button>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="logo"><span class="logo-text">Villagio Cafe</span></a>
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="menu/index.html" class="nav-link">Menu</a></li>
+          <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+          <li><a href="catering.html" class="nav-link">Catering</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:410-372-2200" class="header-phone"><span>410-372-2200</span></a>
+        <a href="tel:410-372-2200" class="btn btn-primary">Order Now</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="menu/index.html" class="mobile-nav-link">Menu</a></li>
+      <li><a href="gallery.html" class="mobile-nav-link active">Gallery</a></li>
+      <li><a href="catering.html" class="mobile-nav-link">Catering</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-menu-footer">
+      <a href="tel:410-372-2200" class="btn btn-primary btn-block">Call 410-372-2200</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Gallery</h1>
+        <p class="page-hero-subtitle">A visual journey through Villagio Cafe</p>
+      </div>
+    </section>
+
+    <section class="section-gallery">
+      <div class="container">
+        <div class="gallery-filter">
+          <button class="gallery-filter-btn active" data-filter="all">All</button>
+          <button class="gallery-filter-btn" data-filter="food">Food</button>
+          <button class="gallery-filter-btn" data-filter="restaurant">Restaurant</button>
+          <button class="gallery-filter-btn" data-filter="events">Events</button>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item" data-category="food">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=600&fit=crop" alt="Signature kebab platter with saffron rice" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Signature Kebab Platter</span>
+            </div>
+          </div>
+
+          <div class="gallery-item gallery-item-wide" data-category="restaurant">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop" alt="Villagio Cafe dining room interior" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Our Dining Room</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="food">
+            <img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=600&h=600&fit=crop" alt="Grilled chicken thigh with herbs" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Chicken Thigh Kebab</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="food">
+            <img src="https://images.unsplash.com/photo-1514516345957-556ca7c90a29?w=600&h=600&fit=crop" alt="Lamb shish kebab" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Lamb Shish Kebab</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="food">
+            <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&h=600&fit=crop" alt="Traditional herb stew" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Ghormeh Sabzi</span>
+            </div>
+          </div>
+
+          <div class="gallery-item gallery-item-tall" data-category="restaurant">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=900&fit=crop" alt="Elegant table setting" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Elegant Table Setting</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="food">
+            <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&h=600&fit=crop" alt="Appetizer platter" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Appetizer Platter</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="events">
+            <img src="https://images.unsplash.com/photo-1529543544277-ea0dae92f7f9?w=600&h=600&fit=crop" alt="Private event setup" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Private Events</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="food">
+            <img src="https://images.unsplash.com/photo-1519915028121-7d3463d5b1ff?w=600&h=600&fit=crop" alt="Baklava dessert" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Traditional Baklava</span>
+            </div>
+          </div>
+
+          <div class="gallery-item gallery-item-wide" data-category="food">
+            <img src="https://images.unsplash.com/photo-1565680018093-ebb6b9e8bb71?w=800&h=500&fit=crop" alt="Seafood selection" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Fresh Seafood</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="restaurant">
+            <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=600&h=600&fit=crop" alt="Restaurant ambiance" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Warm Ambiance</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="food">
+            <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=600&fit=crop" alt="Fessenjan stew" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Fessenjan</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="events">
+            <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=600&fit=crop" alt="Celebration event" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Celebrations</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="food">
+            <img src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=600&h=600&fit=crop" alt="Saffron ice cream" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Saffron Ice Cream</span>
+            </div>
+          </div>
+
+          <div class="gallery-item gallery-item-tall" data-category="restaurant">
+            <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?w=600&h=900&fit=crop" alt="Bar area" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Bar Area</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="food">
+            <img src="https://images.unsplash.com/photo-1558030006-450675393462?w=600&h=600&fit=crop" alt="Beef shish kebab" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-caption">Beef Shish Kebab</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-cta-banner">
+      <div class="container">
+        <div class="cta-banner-content">
+          <h2>Experience it for Yourself</h2>
+          <p>Visit Villagio Cafe and create your own memories with us</p>
+          <div class="cta-banner-buttons">
+            <a href="menu/index.html" class="btn btn-primary">View Our Menu</a>
+            <a href="contact.html" class="btn btn-ghost">Find Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-text">Villagio Cafe</span>
+          <p class="footer-tagline">Authentic Persian Fine Dining</p>
+        </div>
+        <div class="footer-nav">
+          <h4 class="footer-title">Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu/index.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="catering.html">Catering</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-hours">
+          <h4 class="footer-title">Hours</h4>
+          <p>Monday - Saturday<br>11am - 9pm</p>
+          <p>Sunday<br>12pm - 8pm</p>
+        </div>
+        <div class="footer-contact">
+          <h4 class="footer-title">Contact</h4>
+          <p>6805 York RD<br>Baltimore, MD 21212</p>
+          <p><a href="tel:410-372-2200">410-372-2200</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; Villagio Cafe. All rights reserved.</p>
+        <p>Powered by <a href="http://www.thenorthsoft.com/" target="_blank" rel="noopener">NorthSoft</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Gallery filter functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterBtns = document.querySelectorAll('.gallery-filter-btn');
+      const galleryItems = document.querySelectorAll('.gallery-item');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          const filter = this.dataset.filter;
+          
+          filterBtns.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+
+          galleryItems.forEach(item => {
+            if (filter === 'all' || item.dataset.category === filter) {
+              item.style.display = 'block';
+              setTimeout(() => item.style.opacity = '1', 10);
+            } else {
+              item.style.opacity = '0';
+              setTimeout(() => item.style.display = 'none', 300);
+            }
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>
